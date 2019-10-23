@@ -30,10 +30,9 @@ hr {
 .two ol li:nth-child(3) {
   background-color: lightsteelblue;
 }
-.three:nth-child(odd) ul li:nth-child(-n + 3) {
+.three :nth-child(odd) li:nth-child(-n + 3) {
   background-color: lightsteelblue;
 }
-
 div:before {
   font-family: monospace;
   white-space: nowrap;
